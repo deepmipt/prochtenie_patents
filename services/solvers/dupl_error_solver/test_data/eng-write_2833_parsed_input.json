@@ -1,0 +1,20 @@
+{
+    "input_data": [
+        {
+            "annotations": {
+                "morphosyntactic_parser": {
+                    "annotated_sentences": []
+                }
+            },
+            "post_annotations": {},
+            "solvers": [],
+            "raw_input": "",
+            "instance_info": {
+                "dataset_split": "train",
+                "dataset_name": "neznaika",
+                "dataset_version": "v2",
+                "subject": "английский"
+            }
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+services:
+
+  basic_reader:
+    build:
+      args:
+        SERVICE_NAME: basic_reader
+        SERVICE_PORT: 2085
+      context: ./services/annotators/basic_reader/
+    environment:
+      - STORE_DATA_ENABLE=true
+    tty: true
+    volumes:
+      - ./services/annotators/basic_reader:/src
+      - ./data:/data
+      - ./data/cache/basic_reader:/root/.cache
+      - ./common_packages:/common_packages
+
+  morphosyntactic_parser: # GPU is required
+    build:
+      args:
+        SERVICE_NAME: morphosyntactic_parser
+        SERVICE_PORT: 2084
+        DEEPPAVLOV_CONFIG: ru_syntagrus_joint_parsing
+        TEST_DATA_DIR: test_data
+      context: ./services/annotators/morphosyntactic_parser/
+    environment:
+      - STORE_DATA_ENABLE=true
+    tty: true
+    volumes:
+      - ./services/annotators/morphosyntactic_parser:/src
+      - ./data:/data
+      - ./data/deeppavlov/morphosyntactic_parser:/root/.deeppavlov
+      - ./data/cache/morphosyntactic_parser:/root/.cache
+      - ./common_packages:/common_packages
+
+  ner: # GPU is required
+    build:
+      args:
+        SERVICE_NAME: ner
+        SERVICE_PORT: 2093
+        DEEPPAVLOV_CONFIG: ner_rus_bert
+      context: ./services/annotators/ner/
+    environment:
+      - STORE_DATA_ENABLE=true
+    tty: true
+    volumes:
+      - ./services/annotators/ner:/src
+      - ./data:/data
+      - ./data/deeppavlov/ner:/root/.deeppavlov
+      - ./data/cache/ner:/root/.cache
+      - ./common_packages:/common_packages
+
+  event_detector:
+    build:
+      args:
+        SERVICE_NAME: event_detector
+        SERVICE_PORT: 2096
+      context: ./services/solvers/event_detector/
+    environment:
+      - STORE_DATA_ENABLE=true
+    tty: true
+    volumes:
+      - ./services/solvers/event_detector:/src
+      - ./data:/data
+      - ./data/cache/event_detector:/root/.cache
+      - ./common_packages:/common_packages
+
+  history_role_skill:
+    build:
+      args:
+        SERVICE_NAME: history_role_skill
+        SERVICE_PORT: 2094
+      context: ./services/solvers/history_role_skill/
+    environment:
+      - STORE_DATA_ENABLE=true
+    tty: true
+    volumes:
+      - ./services/solvers/history_role_skill:/src
+      - ./data:/data
+      - ./data/cache/history_role_skill:/root/.cache
+      - ./common_packages:/common_packages
+
+  date_check_skill:
+    build:
+      args:
+        SERVICE_NAME: date_check_skill
+        SERVICE_PORT: 2095
+      context: ./services/solvers/date_check_skill/
+    environment:
+      - STORE_DATA_ENABLE=true
+    tty: true
+    volumes:
+      - ./services/solvers/date_check_skill:/src
+      - ./data:/data
+      - ./data/cache/date_check_skill:/root/.cache
+      - ./common_packages:/common_packages
+
+  history_k3_skill:
+    build:
+      args:
+        SERVICE_NAME: history_k3_skill
+        SERVICE_PORT: 2102
+      context: ./services/solvers/history_k3_skill/
+    environment:
+      - STORE_DATA_ENABLE=true
+    tty: true
+    volumes:
+      - ./services/solvers/history_k3_skill:/src
+      - ./data:/data
+      - ./data/cache/history_k3_skill:/root/.cache
+      - ./common_packages:/common_packages
+
+
+version: "3.7"
+
+networks:
+  default:
+    name: ${NETWORK_NAME?netowork_name_unset}

@@ -1,0 +1,18 @@
+Cython==0.29.14
+six==1.10.0
+flask==1.1.1
+six==1.10.0
+healthcheck==1.3.3
+gunicorn==19.9.0
+requests==2.22.0
+beautifulsoup4==4.9.0
+google==3.0.0
+lxml==4.4.2
+# deeppavlov and deeppavlov models
+deeppavlov==0.11.0
+git+https://github.com/udapi/udapi-python.git
+russian-tagsets==0.6
+# tf is installed by a base image of docker
+# tensorflow==1.15.2
+git+https://github.com/deepmipt/bert.git@feat/multi_gpu
+git+https://github.com/andersjo/dependency_decoding.git@79510908223b93bd4c1fb0409a2a66dd75577c2c

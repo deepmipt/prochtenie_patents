@@ -1,0 +1,257 @@
+{
+    "input_data": [
+        {
+            "annotations": {},
+            "post_annotations": {},
+            "solvers": [],
+            "raw_input": {
+                "meta": {
+                    "uuid": "7f7d847a-5708-49dd-82ba-68c34d2e0223",
+                    "id": "0052491",
+                    "name": "0052491_en_How_to_do_first_steps_in_Taekwondo__noexp.txt",
+                    "subject": "eng",
+                    "test": "эссе тренировка",
+                    "category": "",
+                    "year": 2020,
+                    "class": "1 курс",
+                    "theme": "How to do first steps in Taekwondo",
+                    "taskText": ""
+                },
+                "criteria": {
+                    "K1": "0",
+                    "K2": "0",
+                    "K3": "0",
+                    "K4": "0",
+                    "K5": "0"
+                },
+                "selections": [
+                    {
+                        "id": 978,
+                        "tag": "",
+                        "type": "ПРОБЛЕМА",
+                        "group": "meaning",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 285,
+                        "startSelection": 0
+                    },
+                    {
+                        "id": 883,
+                        "tag": "",
+                        "type": "А.СТИЛЬ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "ритор",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 285,
+                        "startSelection": 245
+                    },
+                    {
+                        "id": 193,
+                        "tag": "",
+                        "type": "ПРМНЕНИЕ",
+                        "group": "meaning",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 791,
+                        "startSelection": 653
+                    },
+                    {
+                        "id": 238,
+                        "tag": "",
+                        "type": "А.ГРАММ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "видовр",
+                        "correction": "people are now involved",
+                        "explanation": "",
+                        "endSelection": 230,
+                        "startSelection": 211
+                    },
+                    {
+                        "id": 957,
+                        "tag": "",
+                        "type": "А.ГРАММ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "пред",
+                        "correction": "for",
+                        "explanation": "",
+                        "endSelection": 315,
+                        "startSelection": 313
+                    },
+                    {
+                        "id": 909,
+                        "tag": "",
+                        "type": "А.ПУНКТ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "patient, because",
+                        "explanation": "",
+                        "endSelection": 387,
+                        "startSelection": 372
+                    },
+                    {
+                        "id": 893,
+                        "tag": "",
+                        "type": "А.ПУНКТ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "movements, which",
+                        "explanation": "",
+                        "endSelection": 480,
+                        "startSelection": 465
+                    },
+                    {
+                        "id": 84,
+                        "tag": "",
+                        "type": "А.СТИЛЬ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "стяж",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 565,
+                        "startSelection": 560
+                    },
+                    {
+                        "id": 612,
+                        "tag": "",
+                        "type": "А.СТИЛЬ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "стяж",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 593,
+                        "startSelection": 588
+                    },
+                    {
+                        "id": 516,
+                        "tag": "",
+                        "type": "А.ПУНКТ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "seniors: they",
+                        "explanation": "",
+                        "endSelection": 619,
+                        "startSelection": 607
+                    },
+                    {
+                        "id": 408,
+                        "tag": "",
+                        "type": "ЛМНЕНИЕ",
+                        "group": "meaning",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 652,
+                        "startSelection": 286
+                    },
+                    {
+                        "id": 594,
+                        "tag": "",
+                        "type": "А.ГРАММ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "мест",
+                        "correction": "your",
+                        "explanation": "",
+                        "endSelection": 641,
+                        "startSelection": 638
+                    },
+                    {
+                        "id": 345,
+                        "tag": "",
+                        "type": "А.ПУНКТ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "mentality, due",
+                        "explanation": "",
+                        "endSelection": 694,
+                        "startSelection": 681
+                    },
+                    {
+                        "id": 819,
+                        "tag": "",
+                        "type": "А.ГРАММ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "пред",
+                        "correction": "it",
+                        "explanation": "",
+                        "endSelection": 702,
+                        "startSelection": 698
+                    },
+                    {
+                        "id": 666,
+                        "tag": "",
+                        "type": "А.АСПЕКТ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 791,
+                        "startSelection": 653
+                    },
+                    {
+                        "id": 21,
+                        "tag": "",
+                        "type": "А.ГРАММ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "видовр",
+                        "correction": "be",
+                        "explanation": "",
+                        "endSelection": 708,
+                        "startSelection": 703
+                    },
+                    {
+                        "id": 273,
+                        "tag": "",
+                        "type": "ВЫВОД",
+                        "group": "meaning",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 852,
+                        "startSelection": 792
+                    },
+                    {
+                        "id": 122,
+                        "tag": "",
+                        "type": "А.ГРАММ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "множ",
+                        "correction": "advice",
+                        "explanation": "",
+                        "endSelection": 815,
+                        "startSelection": 808
+                    }
+                ],
+                "text": "Since the very foundation of Korean kingdom people needed means to protect themselves.\nHowever, there is no doubt that Korean martial arts have become part of their routine. It always has huge interest and many people now involved in Taekwondo. But how to do first steps in this sport?\nGiving you tips and tricks in picking up, in order to learn Taekwondo, you have to be patient because it`s not as easy as you would imagine.\nFirstly, try to repeat all of coach`s movements which might help you to understand your body.\nSecondly, be concentrated, so that you don`t get injured.\nThirdly, don`t forget about seniors they can help you with you beginning.\nHowever, be aware of Korean mentality due to them being very polite and delicate. Therefore, it may well be tough for you to cope with it.\nI think that my advices will help you with this «adventure».",
+                "fileName": "0052491_exp113.json"
+            },
+            "instance_info": {
+                "dataset_split": "train",
+                "dataset_name": "prochtenie",
+                "dataset_version": "v4",
+                "subject": "eng",
+                "file_name": "0052491_exp113.json"
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "input_data": [
+        {
+            "annotations": {},
+            "post_annotations": {},
+            "solvers": [],
+            "raw_input": {
+                "meta": {
+                    "uuid": "cddc5cdd-4037-4d98-91a7-98ec0affe343",
+                    "id": "0050156",
+                    "name": "0050156_en_Future_session_noexp.txt",
+                    "subject": "eng",
+                    "test": "эссе тренировка",
+                    "category": "",
+                    "year": 2020,
+                    "class": "1 курс",
+                    "theme": "Future session",
+                    "taskText": ""
+                },
+                "text": "What do you think about when you hear the word “issue”? Firstly, you probably have a thought about routine problems that all people face from time to time. Furthermore, you may consider some global problems which have an effect on everyone’s life and the life of our planet in common. So what are the main issues of modern society?\nIf I think about global problems, the first thing that comes to my mind is worsening of ecological situation. It’s a complex issue which includes land, water and air pollution, as well as deforestation, extinction of flora and fauna species. One of the most urgent issues is also the process of global warming and climate changing.\nOur second semester didn’t start with the best news .. A possible virus infection was announced. After confirming the threat of the virus, we were sent to distance learning.All lectures are scheduled, in the format of video conferencing. You can also ask a question - the teacher will additionally explain the topic. You can participate in the discussion yourself.I am very worried about the future session. First of all, how will it be organized in the upcoming situation. Secondly, the complexity of the exams is worrying",
+                "fileName": "0050156.json"
+            },
+            "instance_info": {
+                "dataset_split": "train",
+                "dataset_name": "prochtenie",
+                "dataset_version": "v4",
+                "subject": "eng",
+                "file_name": "0050156.json"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "selections": [
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 683,
+            "explanation": "",
+            "group": "meaning",
+            "id": 0,
+            "startSelection": 194,
+            "subtype": "",
+            "tag": "",
+            "type": "АРГУМЕНТ"
+        },
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 1166,
+            "explanation": "",
+            "group": "meaning",
+            "id": 1,
+            "startSelection": 1065,
+            "subtype": "",
+            "tag": "",
+            "type": "ВЫВОД"
+        },
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 1236,
+            "explanation": "",
+            "group": "meaning",
+            "id": 2,
+            "startSelection": 1168,
+            "subtype": "",
+            "tag": "",
+            "type": "ЛМНЕНИЕ"
+        },
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 1350,
+            "explanation": "",
+            "group": "meaning",
+            "id": 3,
+            "startSelection": 1238,
+            "subtype": "",
+            "tag": "",
+            "type": "АРГУМЕНТ"
+        }
+    ]
+}

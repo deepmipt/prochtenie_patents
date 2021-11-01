@@ -1,0 +1,197 @@
+{
+    "input_data": [
+        {
+            "annotations": {},
+            "post_annotations": {},
+            "solvers": [],
+            "raw_input": {
+                "meta": {
+                    "uuid": "985e93be-df86-4009-bf54-6152acd6f15c",
+                    "id": "0050051",
+                    "name": "0050051_en_People_have_become_too_dependent_on_technology_noexp.txt",
+                    "subject": "eng",
+                    "test": "егэ тренировка",
+                    "category": "",
+                    "year": 2020,
+                    "class": "11",
+                    "theme": "People have become too dependent on technology.",
+                    "taskText": ""
+                },
+                "criteria": {
+                    "K1": "0",
+                    "K2": "0",
+                    "K3": "0",
+                    "K4": "0",
+                    "K5": "0"
+                },
+                "selections": [
+                    {
+                        "id": 21,
+                        "tag": "",
+                        "type": "А.грамм",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "нел",
+                        "correction": "seem to rely",
+                        "explanation": "Неличная форма глагола",
+                        "endSelection": 34,
+                        "startSelection": 21
+                    },
+                    {
+                        "id": 105,
+                        "tag": "",
+                        "type": "А.пункт",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "more than",
+                        "explanation": "Пунктуационная ошибка.",
+                        "endSelection": 61,
+                        "startSelection": 51
+                    },
+                    {
+                        "id": 556,
+                        "tag": "",
+                        "type": "А.пункт",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "phones bursting",
+                        "explanation": "Пунктуационная ошибка.",
+                        "endSelection": 471,
+                        "startSelection": 455
+                    },
+                    {
+                        "id": 1104,
+                        "tag": "",
+                        "type": "А.грамм",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "арт",
+                        "correction": "hot cocoa",
+                        "explanation": "Артикль",
+                        "endSelection": 961,
+                        "startSelection": 950
+                    },
+                    {
+                        "id": 1354,
+                        "tag": "",
+                        "type": "А.грамм",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "мест",
+                        "correction": "us- не требуется это местоимение в предложении",
+                        "explanation": "Местоимение",
+                        "endSelection": 1177,
+                        "startSelection": 1164
+                    },
+                    {
+                        "id": 1525,
+                        "tag": "",
+                        "type": "А.грамм",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "арт",
+                        "correction": "make the life",
+                        "explanation": "Артикль",
+                        "endSelection": 1266,
+                        "startSelection": 1257
+                    },
+                    {
+                        "id": 1583,
+                        "tag": "",
+                        "type": "А.пункт",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "In their opinion,",
+                        "explanation": "Пунктуационная ошибка.",
+                        "endSelection": 1291,
+                        "startSelection": 1275
+                    },
+                    {
+                        "id": 1747,
+                        "tag": "",
+                        "type": "А.стиль",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "ритор",
+                        "correction": "",
+                        "explanation": "Стилистическая ошибка. Риторический вопрос.",
+                        "endSelection": 1412,
+                        "startSelection": 1384
+                    },
+                    {
+                        "id": 716,
+                        "tag": "",
+                        "type": "ПРОБЛЕМА",
+                        "group": "meaning",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 269,
+                        "startSelection": 0
+                    },
+                    {
+                        "id": 246,
+                        "tag": "",
+                        "type": "ЛМНЕНИЕ",
+                        "group": "meaning",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 351,
+                        "startSelection": 270
+                    },
+                    {
+                        "id": 597,
+                        "tag": "",
+                        "type": "ПРМНЕНИЕ",
+                        "group": "meaning",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 1431,
+                        "startSelection": 1132
+                    },
+                    {
+                        "id": 654,
+                        "tag": "",
+                        "type": "ОБОСНОВАНИЕ",
+                        "group": "meaning",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 1660,
+                        "startSelection": 1432
+                    },
+                    {
+                        "id": 705,
+                        "tag": "",
+                        "type": "ВЫВОД",
+                        "group": "meaning",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 1844,
+                        "startSelection": 1661
+                    }
+                ],
+                "text": "Nowadays people seem to be relying on technologies more, than they should. Some people believe that humanity is indeed becoming unable to do anything on its own day by day. Whereas others think that there is nothing bad in using things for what they have been made for.\nIn my opinion, people do rely on technology too much. They have become dependent. Firstly, there were a lot of experiments featuring people, who had to wait some time in front of their phones, bursting with notifications. They proved their inability to stay unaffected by it. Moreover, such dependency can be seen when people try living in the nature, in tents, somewhere in the mountains or near the beach. Some people barely know how to start a fire or do other basic things. Not that it is highly necessary, but after some time people cannot help but dream a bit about a hot bath with a radio playing in the background, or sitting by the window on a rainy day, slowly drinking a hot cocoa and watching the TV. Just like smokers need a smoke after some time, everybody else needs things, which make our life easier. These things are what we call “technology”.\nOn the other hand, others think that us using the technology is normal – natural, even. Humanity uses what it has created to make life easier. In their opinion people should not be called dependent in this matter. They are merely doing what they can – why make life more difficult than it should be?\nI do not agree with the opposing idea because, while it is quite normal to use technology every day, people cannot always have it by the hand. Relying on it too much makes them weaker in situations when they are left without it.\nIn conclusion I would like to underline that it is common to live and use technology in everyday life, but one should not forget how to survive without it and not be fanatic about it.",
+                "fileName": "0050051_exp106.json"
+            },
+            "instance_info": {
+                "dataset_split": "train",
+                "dataset_name": "prochtenie",
+                "dataset_version": "v4",
+                "subject": "eng",
+                "file_name": "0050051_exp106.json"
+            }
+        }
+    ]
+}

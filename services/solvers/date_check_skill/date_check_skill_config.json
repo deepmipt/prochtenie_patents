@@ -1,0 +1,37 @@
+{
+  "chainer": {
+    "in": ["sentences", "parses", "topic", "offsets"],
+    "pipe": [
+      {
+        "class_name": "date_check_skill:DateChecker",
+        "in": ["sentences", "parses", "topic", "offsets"],
+        "out": ["error_spans"],
+        "history_dates_file": "{DOWNLOADS_PATH}/history/history_dates.json",
+        "batch_size": 30,
+        "tfidf_dot_product_thres": 0.2
+      }
+    ],
+    "out": ["error_spans"]
+  },
+  "metadata": {
+    "variables": {
+      "ROOT_PATH": "~/.deeppavlov",
+      "DOWNLOADS_PATH": "{ROOT_PATH}/downloads",
+      "MODELS_PATH": "{ROOT_PATH}/models",
+      "CONFIGS_PATH": "{DEEPPAVLOV_PATH}/configs"
+    },
+    "requirements": [
+      "{DEEPPAVLOV_PATH}/requirements/rapidfuzz.txt",
+      "{DEEPPAVLOV_PATH}/requirements/udpipe.txt",
+      "{DEEPPAVLOV_PATH}/requirements/tf.txt",
+      "{DEEPPAVLOV_PATH}/requirements/bert_dp.txt",
+      "{DEEPPAVLOV_PATH}/requirements/syntax_parser.txt"
+    ],
+    "download": [
+      {
+        "url": "http://files.deeppavlov.ai/prochtenie/history_dates.json",
+        "subdir": "{DOWNLOADS_PATH}/history"
+      }
+    ]
+  }
+}

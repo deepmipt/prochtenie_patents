@@ -1,0 +1,28 @@
+{
+    "selections": [
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 330,
+            "explanation": "",
+            "group": "meaning",
+            "id": 0,
+            "startSelection": 56,
+            "subtype": "",
+            "tag": "",
+            "type": "АРГУМЕНТ"
+        },
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 1136,
+            "explanation": "",
+            "group": "meaning",
+            "id": 1,
+            "startSelection": 1072,
+            "subtype": "",
+            "tag": "",
+            "type": "АРГУМЕНТ"
+        }
+    ]
+}

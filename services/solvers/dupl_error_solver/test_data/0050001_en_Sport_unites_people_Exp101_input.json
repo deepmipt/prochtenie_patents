@@ -1,0 +1,20 @@
+{
+    "input_data": [
+        {
+            "annotations": {
+                "morphosyntactic_parser": {
+                    "annotated_sentences": []
+                }
+            },
+            "post_annotations": {},
+            "solvers": [],
+            "raw_input": "",
+            "instance_info": {
+                "dataset_split": "test",
+                "dataset_name": "prochtenie",
+                "dataset_version": "v3",
+                "subject": "английский"
+            }
+        }
+    ]
+}

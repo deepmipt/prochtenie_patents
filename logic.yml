@@ -1,0 +1,38 @@
+services:
+  basic_reader:
+    build:
+      args:
+        SERVICE_NAME: basic_reader
+        SERVICE_PORT: 2085
+      context: ./services/annotators/basic_reader/
+    environment:
+      - STORE_DATA_ENABLE=true
+    tty: true
+    volumes:
+      - ./services/annotators/basic_reader:/src
+      - ./data:/data
+      - ./data/cache/basic_reader:/root/.cache
+      - ./common_packages:/common_packages
+
+  sense_blocks_detector: # GPU is required
+    build:
+      args:
+        SERVICE_NAME: sense_blocks_detector
+        SERVICE_PORT: 2098
+        DEEPPAVLOV_CONFIG: custom_config.json
+      context: ./services/solvers/sense_blocks_detector/
+    environment:
+      - STORE_DATA_ENABLE=true
+    tty: true
+    volumes:
+      - ./services/solvers/sense_blocks_detector:/src
+      - ./data:/data
+      - ./data/deeppavlov/sense_blocks_detector:/root/.deeppavlov
+      - ./data/cache/sense_blocks_detector:/root/.cache
+      - ./common_packages:/common_packages
+
+version: "3.7"
+
+networks:
+  default:
+    name: ${NETWORK_NAME?netowork_name_unset}

@@ -1,0 +1,101 @@
+{
+    "input_data": [
+        {
+            "annotations": {},
+            "post_annotations": {},
+            "solvers": [],
+            "raw_input": {
+                "meta": {
+                    "uuid": "37f0ae3b-6cb7-40ff-a2dd-e39fe6fa5628",
+                    "id": "0052448",
+                    "name": "0052448_en_With_whom_does_AI_have_more_common_grounds_for_recognizing_it_as_the_subject_of_law_legally_incompetent_people__animals__legal_entities_noexp.txt",
+                    "subject": "eng",
+                    "test": "эссе тренировка",
+                    "category": "",
+                    "year": 2020,
+                    "class": "1 курс",
+                    "theme": "With whom does AI have more common grounds for recognizing it as the subject of law: legally incompetent people, animals, legal entities?",
+                    "taskText": ""
+                },
+                "criteria": {
+                    "K1": "0",
+                    "K2": "0",
+                    "K3": "0",
+                    "K4": "0",
+                    "K5": "0"
+                },
+                "selections": [
+                    {
+                        "id": 929,
+                        "tag": "",
+                        "type": "А.ГРАММ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "мест",
+                        "correction": "its",
+                        "explanation": "",
+                        "endSelection": 158,
+                        "startSelection": 155
+                    },
+                    {
+                        "id": 454,
+                        "tag": "",
+                        "type": "А.ЛОГИКА",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 383,
+                        "startSelection": 266
+                    },
+                    {
+                        "id": 191,
+                        "tag": "",
+                        "type": "А.СТИЛЬ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "стяж",
+                        "correction": "",
+                        "explanation": "",
+                        "endSelection": 782,
+                        "startSelection": 778
+                    },
+                    {
+                        "id": 226,
+                        "tag": "",
+                        "type": "А.ГРАММ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "мест",
+                        "correction": "its",
+                        "explanation": "",
+                        "endSelection": 830,
+                        "startSelection": 827
+                    },
+                    {
+                        "id": 777,
+                        "tag": "",
+                        "type": "А.ГРАММ",
+                        "group": "error",
+                        "comment": "",
+                        "subtype": "мест",
+                        "correction": "its",
+                        "explanation": "",
+                        "endSelection": 904,
+                        "startSelection": 901
+                    }
+                ],
+                "text": "We will reveal all the concepts with which further reasoning will be associated. Artificial intelligence is a mirror image of human, capable of generating his own thoughts and making decisions. In turn, the subject of law is a person who has rights and obligations. Only with independent decision-making, the AI can be endowed with legal capacity, so we are dealing with a strong AI. While some people think of AI as a creative idea, others are trying to recreate these fantasies, while others are seriously considering the issue of how AI will be regulated from the legislative side. At the moment, several options are being considered: incapacitated people, animals, legal entities.\nThe system can be considered an incapacitated person when it has just begun its development. It’s like a little child who is not yet aware of his actions and through trial and error passes the stage of training with his “parents” - creators.\nAfter AI, it becomes like an animal for which new facets of development and understanding open up, and it seeks to know the world itself.\nAnd in conclusion, AI can be compared with legal entities, for which the creator takes responsibility.\nIn my opinion, I would classify AI immediately into three categories. That is, as the AI will fill its base with knowledge and gain experience, change its status with the same degree. Namely, in the following sequence - incompetent people, animals, legal entities, and then, possibly, higher, depending on what peaks AI will reach.",
+                "fileName": "0052448_exp108.json"
+            },
+            "instance_info": {
+                "dataset_split": "train",
+                "dataset_name": "prochtenie",
+                "dataset_version": "v4",
+                "subject": "eng",
+                "file_name": "0052448_exp108.json"
+            }
+        }
+    ]
+}

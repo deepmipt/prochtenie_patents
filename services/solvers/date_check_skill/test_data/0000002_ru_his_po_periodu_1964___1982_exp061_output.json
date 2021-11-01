@@ -1,0 +1,16 @@
+{
+    "mistakes": [
+        {
+            "end_span": 991,
+            "start_span": 987,
+            "text": "1900",
+            "type": "И.факт"
+        },
+        {
+            "end_span": 3946,
+            "start_span": 3942,
+            "text": "1991",
+            "type": "И.факт"
+        }
+    ]
+}

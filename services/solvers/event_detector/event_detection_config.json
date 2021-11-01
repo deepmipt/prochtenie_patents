@@ -1,0 +1,55 @@
+{
+  "chainer": {
+    "in": ["sentences", "offsets"],
+    "pipe": [
+      {
+        "class_name": "entity_detection_parser:EntityDetectionParser",
+        "id": "ner_parser",
+        "entity_tags": ["EVENT"],
+        "type_tag": "TYPE",
+        "o_tag": "O",
+        "tags_file": "{NER_PATH}/tag.dict",
+        "thres_proba": 0.2
+      },
+      {
+        "class_name": "event_detection:EventDetector",
+        "in": ["sentences", "offsets"],
+        "out": ["events"],
+        "batch_size": 30,
+        "tfidf_dot_product_thres": 0.2,
+        "ner": {"config_path": "/src/event_detection.json"},
+        "ner_parser": "#ner_parser"
+      }
+    ],
+    "out": ["events"]
+  },
+  "metadata": {
+    "variables": {
+      "ROOT_PATH": "~/.deeppavlov",
+      "DOWNLOADS_PATH": "{ROOT_PATH}/downloads",
+      "MODELS_PATH": "{ROOT_PATH}/models",
+      "CONFIGS_PATH": "{DEEPPAVLOV_PATH}/configs",
+      "NER_PATH": "{MODELS_PATH}/event_detection"
+    },
+    "requirements": [
+      "{DEEPPAVLOV_PATH}/requirements/rapidfuzz.txt",
+      "{DEEPPAVLOV_PATH}/requirements/udpipe.txt",
+      "{DEEPPAVLOV_PATH}/requirements/tf.txt",
+      "{DEEPPAVLOV_PATH}/requirements/bert_dp.txt"
+    ],
+    "download": [
+      {
+        "url": "http://files.deeppavlov.ai/prochtenie/history_dates.json",
+        "subdir": "{DOWNLOADS_PATH}/history"
+      },
+      {
+        "url": "http://files.deeppavlov.ai/kbqa/models/event_detection.tar.gz",
+        "subdir": "{MODELS_PATH}/event_detection"
+      },
+      {
+        "url": "http://files.deeppavlov.ai/deeppavlov_data/bert/rubert_cased_L-12_H-768_A-12_v1.tar.gz",
+        "subdir": "{DOWNLOADS_PATH}/bert_models"
+      }
+    ]
+  }
+}

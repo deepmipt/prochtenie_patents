@@ -1,0 +1,135 @@
+{
+    "input_data": [
+        {
+            "annotations": {},
+            "post_annotations": {},
+            "solvers": [],
+            "raw_input": {
+                "text": "Some people think that in the future traditional shops will disappear and all shopping will be online with home delivery.",
+                "essay": [
+                    "Nowadays online shopping has become very popular. Therefore, traditional shops will disappear. Let us consider about positive and negative moments of this statement.",
+                    "To my mind, popularity of traditional shopping is reducing. Moreover, it means that these shops will be replaced by online ones. The main cause why it is going to happen is that online shopping is very cosy. It means that you have no longer to leave your home to buy something you need. This kind jf shopping also helps you to save time by using home delivery.",
+                    "However, some people believe that traditional shopping will always take an important part in everybody's life. For example, you will never make mistakes during choosing the right size or colour of clothes because you can do it right of the shop. Shopping is the one of the best way of entertainment that makes you pleasure.",
+                    "In the coclusion I would notice that it is up to everyone to think about the disappearance of traditional shops. As for me, I am sure that traditional shops will exist in future."
+                ],
+                "errors": [
+                    [],
+                    [
+                        {
+                            "start": 202,
+                            "end": 208,
+                            "err_type": "Лексическая",
+                            "err_id": "2833_0",
+                            "err_span": "cosy. ",
+                            "err_text": "comfortable"
+                        },
+                        {
+                            "start": 297,
+                            "end": 299,
+                            "err_type": "Орфографическая",
+                            "err_id": "2833_1",
+                            "err_span": "jf",
+                            "err_text": "of"
+                        }
+                    ],
+                    [
+                        {
+                            "start": 153,
+                            "end": 160,
+                            "err_type": "Лексическая",
+                            "err_id": "2833_2",
+                            "err_span": "during ",
+                            "err_text": "лишнее слово"
+                        },
+                        {
+                            "start": 233,
+                            "end": 235,
+                            "err_type": "Грамматическая",
+                            "err_id": "2833_3",
+                            "err_span": "of",
+                            "err_text": "in"
+                        },
+                        {
+                            "start": 258,
+                            "end": 261,
+                            "err_type": "Грамматическая",
+                            "err_id": "2833_4",
+                            "err_span": "the",
+                            "err_text": "артикль лишний"
+                        },
+                        {
+                            "start": 278,
+                            "end": 281,
+                            "err_type": "Грамматическая",
+                            "err_id": "2833_5",
+                            "err_span": "way",
+                            "err_text": "ways"
+                        },
+                        {
+                            "start": 304,
+                            "end": 310,
+                            "err_type": "Лексическая",
+                            "err_id": "2833_6",
+                            "err_span": "makes ",
+                            "err_text": "brings"
+                        }
+                    ],
+                    [
+                        {
+                            "start": 7,
+                            "end": 16,
+                            "err_type": "Орфографическая",
+                            "err_id": "2833_7",
+                            "err_span": "coclusion",
+                            "err_text": "conclusion"
+                        },
+                        {
+                            "start": 170,
+                            "end": 171,
+                            "err_type": "Грамматическая",
+                            "err_id": "2833_8",
+                            "err_span": " ",
+                            "err_text": "the"
+                        }
+                    ]
+                ],
+                "criteria": [
+                    {
+                        "criterion_code": "К1",
+                        "critetion_name": "Решение коммуникативной задачи",
+                        "criterion_points": "1 из 3"
+                    },
+                    {
+                        "criterion_code": "К2",
+                        "critetion_name": "Организация текста",
+                        "criterion_points": "1 из 3"
+                    },
+                    {
+                        "criterion_code": "К3",
+                        "critetion_name": "Лексика",
+                        "criterion_points": "1 из 3"
+                    },
+                    {
+                        "criterion_code": "К4",
+                        "critetion_name": "Грамматика",
+                        "criterion_points": "0 из 3"
+                    },
+                    {
+                        "criterion_code": "К5",
+                        "critetion_name": "Орфография и пунктуация",
+                        "criterion_points": "1 из 2"
+                    }
+                ],
+                "teacher_comment": "Ири­на, ва­ше со­чи­не­ние на­пи­са­но не в том фор­ма­те, в ко­то­ром сей­час тре­бу­ет­ся. Изу­чи­те ма­те­ри­а­лы ФИПИ (зай­ди­те на сайт). Та­кой фор­мат су­ще­ство­вал несколь­ко лет на­зад. Сей­час со­чи­не­ние со­сто­ит из 5 аб­за­цев: по­ста­нов­ка про­бле­мы с двух то­чек зре­ния, свое мне­ние, про­ти­во­по­лож­ное мне­ние, контр­ар­гу­мен­ты к про­ти­во­по­лож­но­му мне­нию, за­клю­че­ние. Но ваш слог мне по­нра­вил­ся. Пред­ло­же­ния по­стро­е­ны про­сто и пра­виль­но. Об­ра­ти­те вни­ма­ние на лек­си­ку и на ар­тик­ли.",
+                "url": "https://neznaika.info/check/eng-write/2833.html"
+            },
+            "instance_info": {
+                "dataset_split": "train",
+                "dataset_name": "neznaika",
+                "dataset_version": "v2",
+                "subject": "eng",
+                "file_name": "eng-write_2833_parsed.json"
+            }
+        }
+    ]
+}

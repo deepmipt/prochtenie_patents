@@ -1,0 +1,619 @@
+{
+    "input_data": [
+        {
+            "annotations": {
+                "basic_reader": {
+                    "annotations": {
+                        "mistakes": [],
+                        "unprocessed_mistakes": [
+                            {
+                                "comment": "comfortable",
+                                "end_span": 374,
+                                "raw_type": "Лексическая",
+                                "source": "Незнайка",
+                                "start_span": 368,
+                                "text": "cosy. "
+                            },
+                            {
+                                "comment": "of",
+                                "end_span": 465,
+                                "raw_type": "Орфографическая",
+                                "source": "Незнайка",
+                                "start_span": 463,
+                                "text": "jf"
+                            },
+                            {
+                                "comment": "лишнее слово",
+                                "end_span": 687,
+                                "raw_type": "Лексическая",
+                                "source": "Незнайка",
+                                "start_span": 680,
+                                "text": "during "
+                            },
+                            {
+                                "comment": "in",
+                                "end_span": 762,
+                                "raw_type": "Грамматическая",
+                                "source": "Незнайка",
+                                "start_span": 760,
+                                "text": "of"
+                            },
+                            {
+                                "comment": "артикль лишний",
+                                "end_span": 788,
+                                "raw_type": "Грамматическая",
+                                "source": "Незнайка",
+                                "start_span": 785,
+                                "text": "the"
+                            },
+                            {
+                                "comment": "ways",
+                                "end_span": 808,
+                                "raw_type": "Грамматическая",
+                                "source": "Незнайка",
+                                "start_span": 805,
+                                "text": "way"
+                            },
+                            {
+                                "comment": "brings",
+                                "end_span": 837,
+                                "raw_type": "Лексическая",
+                                "source": "Незнайка",
+                                "start_span": 831,
+                                "text": "makes "
+                            },
+                            {
+                                "comment": "conclusion",
+                                "end_span": 867,
+                                "raw_type": "Орфографическая",
+                                "source": "Незнайка",
+                                "start_span": 858,
+                                "text": "coclusion"
+                            },
+                            {
+                                "comment": "the",
+                                "end_span": 1022,
+                                "raw_type": "Грамматическая",
+                                "source": "Незнайка",
+                                "start_span": 1021,
+                                "text": " "
+                            }
+                        ]
+                    },
+                    "clear_essay": "Nowadays online shopping has become very popular. Therefore, traditional shops will disappear. Let us consider about positive and negative moments of this statement.\nTo my mind, popularity of traditional shopping is reducing. Moreover, it means that these shops will be replaced by online ones. The main cause why it is going to happen is that online shopping is very cosy. It means that you have no longer to leave your home to buy something you need. This kind jf shopping also helps you to save time by using home delivery.\nHowever, some people believe that traditional shopping will always take an important part in everybody's life. For example, you will never make mistakes during choosing the right size or colour of clothes because you can do it right of the shop. Shopping is the one of the best way of entertainment that makes you pleasure.\nIn the coclusion I would notice that it is up to everyone to think about the disappearance of traditional shops. As for me, I am sure that traditional shops will exist in future.",
+                    "clear_essay_sentences": [
+                        [
+                            {
+                                "text": "Nowadays online shopping has become very popular.",
+                                "words": [
+                                    "Nowadays",
+                                    "online",
+                                    "shopping",
+                                    "has",
+                                    "become",
+                                    "very",
+                                    "popular",
+                                    "."
+                                ]
+                            },
+                            {
+                                "text": "Therefore, traditional shops will disappear.",
+                                "words": [
+                                    "Therefore",
+                                    ",",
+                                    "traditional",
+                                    "shops",
+                                    "will",
+                                    "disappear",
+                                    "."
+                                ]
+                            },
+                            {
+                                "text": "Let us consider about positive and negative moments of this statement.",
+                                "words": [
+                                    "Let",
+                                    "us",
+                                    "consider",
+                                    "about",
+                                    "positive",
+                                    "and",
+                                    "negative",
+                                    "moments",
+                                    "of",
+                                    "this",
+                                    "statement",
+                                    "."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "To my mind, popularity of traditional shopping is reducing.",
+                                "words": [
+                                    "To",
+                                    "my",
+                                    "mind",
+                                    ",",
+                                    "popularity",
+                                    "of",
+                                    "traditional",
+                                    "shopping",
+                                    "is",
+                                    "reducing",
+                                    "."
+                                ]
+                            },
+                            {
+                                "text": "Moreover, it means that these shops will be replaced by online ones.",
+                                "words": [
+                                    "Moreover",
+                                    ",",
+                                    "it",
+                                    "means",
+                                    "that",
+                                    "these",
+                                    "shops",
+                                    "will",
+                                    "be",
+                                    "replaced",
+                                    "by",
+                                    "online",
+                                    "ones",
+                                    "."
+                                ]
+                            },
+                            {
+                                "text": "The main cause why it is going to happen is that online shopping is very cosy.",
+                                "words": [
+                                    "The",
+                                    "main",
+                                    "cause",
+                                    "why",
+                                    "it",
+                                    "is",
+                                    "going",
+                                    "to",
+                                    "happen",
+                                    "is",
+                                    "that",
+                                    "online",
+                                    "shopping",
+                                    "is",
+                                    "very",
+                                    "cosy",
+                                    "."
+                                ]
+                            },
+                            {
+                                "text": "It means that you have no longer to leave your home to buy something you need.",
+                                "words": [
+                                    "It",
+                                    "means",
+                                    "that",
+                                    "you",
+                                    "have",
+                                    "no",
+                                    "longer",
+                                    "to",
+                                    "leave",
+                                    "your",
+                                    "home",
+                                    "to",
+                                    "buy",
+                                    "something",
+                                    "you",
+                                    "need",
+                                    "."
+                                ]
+                            },
+                            {
+                                "text": "This kind jf shopping also helps you to save time by using home delivery.",
+                                "words": [
+                                    "This",
+                                    "kind",
+                                    "jf",
+                                    "shopping",
+                                    "also",
+                                    "helps",
+                                    "you",
+                                    "to",
+                                    "save",
+                                    "time",
+                                    "by",
+                                    "using",
+                                    "home",
+                                    "delivery",
+                                    "."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "However, some people believe that traditional shopping will always take an important part in everybody's life.",
+                                "words": [
+                                    "However",
+                                    ",",
+                                    "some",
+                                    "people",
+                                    "believe",
+                                    "that",
+                                    "traditional",
+                                    "shopping",
+                                    "will",
+                                    "always",
+                                    "take",
+                                    "an",
+                                    "important",
+                                    "part",
+                                    "in",
+                                    "everybody",
+                                    "'",
+                                    "s",
+                                    "life",
+                                    "."
+                                ]
+                            },
+                            {
+                                "text": "For example, you will never make mistakes during choosing the right size or colour of clothes because you can do it right of the shop.",
+                                "words": [
+                                    "For",
+                                    "example",
+                                    ",",
+                                    "you",
+                                    "will",
+                                    "never",
+                                    "make",
+                                    "mistakes",
+                                    "during",
+                                    "choosing",
+                                    "the",
+                                    "right",
+                                    "size",
+                                    "or",
+                                    "colour",
+                                    "of",
+                                    "clothes",
+                                    "because",
+                                    "you",
+                                    "can",
+                                    "do",
+                                    "it",
+                                    "right",
+                                    "of",
+                                    "the",
+                                    "shop",
+                                    "."
+                                ]
+                            },
+                            {
+                                "text": "Shopping is the one of the best way of entertainment that makes you pleasure.",
+                                "words": [
+                                    "Shopping",
+                                    "is",
+                                    "the",
+                                    "one",
+                                    "of",
+                                    "the",
+                                    "best",
+                                    "way",
+                                    "of",
+                                    "entertainment",
+                                    "that",
+                                    "makes",
+                                    "you",
+                                    "pleasure",
+                                    "."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "In the coclusion I would notice that it is up to everyone to think about the disappearance of traditional shops.",
+                                "words": [
+                                    "In",
+                                    "the",
+                                    "coclusion",
+                                    "I",
+                                    "would",
+                                    "notice",
+                                    "that",
+                                    "it",
+                                    "is",
+                                    "up",
+                                    "to",
+                                    "everyone",
+                                    "to",
+                                    "think",
+                                    "about",
+                                    "the",
+                                    "disappearance",
+                                    "of",
+                                    "traditional",
+                                    "shops",
+                                    "."
+                                ]
+                            },
+                            {
+                                "text": "As for me, I am sure that traditional shops will exist in future.",
+                                "words": [
+                                    "As",
+                                    "for",
+                                    "me",
+                                    ",",
+                                    "I",
+                                    "am",
+                                    "sure",
+                                    "that",
+                                    "traditional",
+                                    "shops",
+                                    "will",
+                                    "exist",
+                                    "in",
+                                    "future",
+                                    "."
+                                ]
+                            }
+                        ]
+                    ],
+                    "clear_essay_word_offsets": [
+                        [
+                            [
+                                0,
+                                9,
+                                16,
+                                25,
+                                29,
+                                36,
+                                41,
+                                48
+                            ],
+                            [
+                                50,
+                                59,
+                                61,
+                                73,
+                                79,
+                                84,
+                                93
+                            ],
+                            [
+                                95,
+                                99,
+                                102,
+                                111,
+                                117,
+                                126,
+                                130,
+                                139,
+                                147,
+                                150,
+                                155,
+                                164
+                            ]
+                        ],
+                        [
+                            [
+                                166,
+                                169,
+                                172,
+                                176,
+                                178,
+                                189,
+                                192,
+                                204,
+                                213,
+                                216,
+                                224
+                            ],
+                            [
+                                226,
+                                234,
+                                236,
+                                239,
+                                245,
+                                250,
+                                256,
+                                262,
+                                267,
+                                270,
+                                279,
+                                282,
+                                289,
+                                293
+                            ],
+                            [
+                                295,
+                                299,
+                                304,
+                                310,
+                                314,
+                                317,
+                                320,
+                                326,
+                                329,
+                                336,
+                                339,
+                                344,
+                                351,
+                                360,
+                                363,
+                                368,
+                                372
+                            ],
+                            [
+                                374,
+                                377,
+                                383,
+                                388,
+                                392,
+                                397,
+                                400,
+                                407,
+                                410,
+                                416,
+                                421,
+                                426,
+                                429,
+                                433,
+                                443,
+                                447,
+                                451
+                            ],
+                            [
+                                453,
+                                458,
+                                463,
+                                466,
+                                475,
+                                480,
+                                486,
+                                490,
+                                493,
+                                498,
+                                503,
+                                506,
+                                512,
+                                517,
+                                525
+                            ]
+                        ],
+                        [
+                            [
+                                527,
+                                534,
+                                536,
+                                541,
+                                548,
+                                556,
+                                561,
+                                573,
+                                582,
+                                587,
+                                594,
+                                599,
+                                602,
+                                612,
+                                617,
+                                620,
+                                629,
+                                630,
+                                632,
+                                636
+                            ],
+                            [
+                                638,
+                                642,
+                                649,
+                                651,
+                                655,
+                                660,
+                                666,
+                                671,
+                                680,
+                                687,
+                                696,
+                                700,
+                                706,
+                                711,
+                                714,
+                                721,
+                                724,
+                                732,
+                                740,
+                                744,
+                                748,
+                                751,
+                                754,
+                                760,
+                                763,
+                                767,
+                                771
+                            ],
+                            [
+                                773,
+                                782,
+                                785,
+                                789,
+                                793,
+                                796,
+                                800,
+                                805,
+                                809,
+                                812,
+                                826,
+                                831,
+                                837,
+                                841,
+                                849
+                            ]
+                        ],
+                        [
+                            [
+                                851,
+                                854,
+                                858,
+                                868,
+                                870,
+                                876,
+                                883,
+                                888,
+                                891,
+                                894,
+                                897,
+                                900,
+                                909,
+                                912,
+                                918,
+                                924,
+                                928,
+                                942,
+                                945,
+                                957,
+                                962
+                            ],
+                            [
+                                964,
+                                967,
+                                971,
+                                973,
+                                975,
+                                977,
+                                980,
+                                985,
+                                990,
+                                1002,
+                                1008,
+                                1013,
+                                1019,
+                                1022,
+                                1028
+                            ]
+                        ]
+                    ],
+                    "criteria": {
+                        "к1": 1,
+                        "к2": 1,
+                        "к3": 1,
+                        "к4": 0,
+                        "к5": 1
+                    },
+                    "header": "Some people think that in the future traditional shops will disappear and all shopping will be online with home delivery.",
+                    "source": "Незнайка",
+                    "subject": "английский"
+                },
+                "morphosyntactic_parser": {
+                    "annotated_sentences": []
+                }
+            },
+            "post_annotations": {},
+            "solvers": [],
+            "raw_input": "",
+            "instance_info": {
+                "dataset_split": "train",
+                "dataset_name": "neznaika",
+                "dataset_version": "v2",
+                "subject": "английский"
+            }
+        }
+    ]
+}

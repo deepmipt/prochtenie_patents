@@ -1,0 +1,76 @@
+{
+    "selections": [
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 164,
+            "explanation": "",
+            "group": "meaning",
+            "id": 0,
+            "startSelection": 0,
+            "subtype": "",
+            "tag": "",
+            "type": "ПРОБЛЕМА"
+        },
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 224,
+            "explanation": "",
+            "group": "meaning",
+            "id": 1,
+            "startSelection": 166,
+            "subtype": "",
+            "tag": "",
+            "type": "ЛМНЕНИЕ"
+        },
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 525,
+            "explanation": "",
+            "group": "meaning",
+            "id": 2,
+            "startSelection": 226,
+            "subtype": "",
+            "tag": "",
+            "type": "АРГУМЕНТ"
+        },
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 636,
+            "explanation": "",
+            "group": "meaning",
+            "id": 3,
+            "startSelection": 527,
+            "subtype": "",
+            "tag": "",
+            "type": "ПРМНЕНИЕ"
+        },
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 849,
+            "explanation": "",
+            "group": "meaning",
+            "id": 4,
+            "startSelection": 638,
+            "subtype": "",
+            "tag": "",
+            "type": "АРГУМЕНТ"
+        },
+        {
+            "comment": "",
+            "correction": "",
+            "endSelection": 1028,
+            "explanation": "",
+            "group": "meaning",
+            "id": 5,
+            "startSelection": 964,
+            "subtype": "",
+            "tag": "",
+            "type": "ЛМНЕНИЕ"
+        }
+    ]
+}

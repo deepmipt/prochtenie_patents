@@ -1,0 +1,36 @@
+services:
+  basic_reader:
+    build:
+      args:
+        SERVICE_NAME: basic_reader
+        SERVICE_PORT: 2085
+      context: ./services/annotators/basic_reader/
+    environment:
+      - STORE_DATA_ENABLE=true
+    tty: true
+    volumes:
+      - ./services/annotators/basic_reader:/src
+      - ./data:/data
+      - ./data/cache/basic_reader:/root/.cache
+      - ./common_packages:/common_packages
+
+  gector: # GPU is required
+    build:
+      args:
+        SERVICE_NAME: gector
+        SERVICE_PORT: 2102
+      context: ./services/solvers/gector/
+    environment:
+      - STORE_DATA_ENABLE=true
+    tty: true
+    volumes:
+      - ./services/solvers/gector:/src
+      - ./data:/data
+      - ./data/cache/gector:/root/.cache
+      - ./common_packages:/common_packages
+
+version: "3.7"
+
+networks:
+  default:
+    name: ${NETWORK_NAME?netowork_name_unset}
